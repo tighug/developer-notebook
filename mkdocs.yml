@@ -1,0 +1,24 @@
+site_name: Developer Notebook
+repo_name: tighug/developer-notebook
+repo_url: https://github.com/tighug/developer-notebook.git
+copyright: © 2020 tighug
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.instant
+  language: ja
+extra:
+  search:
+    language: ja
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+nav:
+  - はじめに: index.md
