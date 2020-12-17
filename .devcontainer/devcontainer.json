@@ -1,0 +1,26 @@
+{
+  "name": "Developer Notebook",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "target": "development",
+    "context": "..",
+    "args": {
+      "PYTHON_VERSION": "3.9",
+      "NODE_VERSION": "14"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "taichi.vscode-textlint"
+  ],
+  "forwardPorts": [8000],
+  "containerUser": "nodepy"
+}
