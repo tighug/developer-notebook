@@ -1,4 +1,4 @@
 {
-  "*.{yml,json}": "prettier --write",
+  "*.{yml,yaml,json}": "prettier --write",
   "*.md": ["prettier --write", "textlint --fix", "markdownlint --fix"]
 }
