@@ -6,6 +6,7 @@
   "author": "tighug <kapuriko123@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^4.3.6",
     "markdownlint-cli": "^0.26.0",
     "textlint": "^11.7.6",
     "textlint-rule-preset-ja-spacing": "^2.0.2",
